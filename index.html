@@ -98,18 +98,18 @@
     ================================================== -->
   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/backc/c-6.JPG" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
-<script src="js/easy_background.js"></script>
+    <script src="js/easy_background.js"></script>
 
-<script>
-  easy_background("#home",
+    <script>
+      easy_background("#home",
 
-    {
-      slide: ["images/background/bg-1.JPG", "images/background/bg-2.JPG", "images/background/bg-3.JPG", "images/background/bg-4.JPG", "images/background/bg-5.JPG", "images/background/bg-6.JPG"],
-      delay: [2000, 2000, 2000, 2000, 2000]
-    }
+        {
+          slide: ["images/background/bg-1.JPG", "images/background/bg-2.JPG", "images/background/bg-3.JPG", "images/background/bg-4.JPG", "images/background/bg-5.JPG", "images/background/bg-6.JPG"],
+          delay: [2000, 2000, 2000, 2000, 2000]
+        }
 
-  );
-</script>
+      );
+    </script>
 
     <div class="overlay"></div>
 
@@ -216,7 +216,7 @@
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/restroom.JPG" alt="Images">
+          <img src="images/services/room.JPG" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">Stylish Rooms for Bride and Groom</h3>
@@ -228,12 +228,12 @@
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/restroom.JPG" alt="Images">
+          <img src="images/services/restroom.jfif" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">Luxurious Restrooms for the Guests</h3>
           <hr>
-          <p>// ask for description
+          <p>We've got luxurious restrooms for the guests.
           </p>
         </div>
       </div>
@@ -252,19 +252,19 @@
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/grand-dine.JPG" alt="Images">
+          <img src="images/services/artistmg.jpg" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">Music and Artist Management</h3>
           <hr>
-          <p>// ask for description
+          <p>With long term relations with celebs we get the best performance rates whether it is a singer comedian international performer. We identify best celebrity to add colors in your show.
           </p>
         </div>
       </div>
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/grand-dine.JPG" alt="Images">
+          <img src="images/services/buffet.jpeg" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">Veg & Non-Vegetarian Menu</h3>
@@ -276,19 +276,19 @@
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/grand-dine.JPG" alt="Images">
+          <img src="images/services/deco.JPG" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">In-house Decorators</h3>
           <hr>
-          <p>// ask for description
+          <p>If you’ve ever tried to bring someone in to help with an interior design project, you know that finding your perfect match can be a task unto itself. Here at Divine Dreams, you don't have to worry about it.
           </p>
         </div>
       </div>
 
       <div class="col-block service-item" data-aos="fade-up">
         <div class="services-img">
-          <img src="images/services/grand-dine.JPG" alt="Images">
+          <img src="images/services/car.jpg" alt="Images">
         </div>
         <div class="service-text">
           <h3 class="h2">Parking Space</h3>
@@ -559,16 +559,28 @@
           <fieldset>
 
             <div class="form-field">
-              <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+              <input name="contactName" type="text" id="contactName" placeholder="*Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
             </div>
             <div class="form-field">
-              <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+              <input name="contactEmail" type="email" id="contactEmail" placeholder="*Your Email" value="" required="" aria-required="true" class="full-width">
             </div>
             <div class="form-field">
-              <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+              <input name="contactPhone" type="text" id="contactPhone" placeholder="*Your Phone" value="" required="" class="full-width">
+            </div>
+            <label name="event-type" type="text" id="event-type" placeholder="*Event Type" value="" required="" class="full-width" for="event-type">Event Type &nbsp;&nbsp;</label>
+            <select id="event-type">
+              <option value="">Choose one</option>
+              <option value="1">Wedding</option>
+              <option value="2">Corporate Meeting</option>
+              <option value="3">Social Gathering</option>
+              <option value="4">Birthday Party</option>
+              <option value="5">Other</option>
+            </select>
+            <div class="form-field">
+              <input name="eventdate" type="text" id="eventdate" placeholder="*Event Date (dd/mm/yyyy)" value="" required="" class="full-width" type="date">
             </div>
             <div class="form-field">
-              <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+              <textarea name="contactMessage" id="contactMessage" placeholder="*Your Message / Enquiry" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
             </div>
             <div class="form-field">
               <button class="full-width btn--primary">Submit</button>
@@ -614,21 +626,11 @@
           </div>
 
           <div class="cinfo">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13035.96066765042!2d77.43469662268558!3d28.599732514067362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefdb53039e2f%3A0xf9a66606c13d6a24!2sDivine%20Dreams%20Farm%20%26%20Banquet!5e0!3m2!1sen!2sin!4v1614285848144!5m2!1sen!2sin" width="250" height="250" style="border:15; border-color:#C5B358;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13035.96066765042!2d77.43469662268558!3d28.599732514067362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefdb53039e2f%3A0xf9a66606c13d6a24!2sDivine%20Dreams%20Farm%20%26%20Banquet!5e0!3m2!1sen!2sin!4v1614285848144!5m2!1sen!2sin"
+              width="250" height="250" style="border:15; border-color:#C5B358;" allowfullscreen="" loading="lazy"></iframe>
 
           </div>
-
-
-          <ul class="contact-social">
-            <li>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
 
         </div> <!-- end contact-info -->
       </div> <!-- end contact-secondary -->
@@ -653,16 +655,18 @@
 
       <div class="col-six tab-full right footer-subscribe">
 
-        <h4>Newsletter</h4>
-        <p>Subscribe to our Newsletter and receive latest updates from us.</p>
-
-        <div class="subscribe-form">
-          <form id="mc-form" class="group" novalidate="true">
-            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-            <input type="submit" name="subscribe" value="Subscribe">
-            <label for="mc-email" class="subscribe-message"></label>
-          </form>
-        </div>
+        <h4>Our Socials</h4>
+        <p>Follow Us & Stay Connected</p>
+        <ul class="contact-social">
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
 
       </div>
 

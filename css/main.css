@@ -2410,7 +2410,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .services-img img {
-  border-radius:20px;
+  border-radius: 10px;
   border: 1px solid #C5B358;
 }
 
@@ -3349,6 +3349,16 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+#event-type {
+  font-weight: normal;
+  color: grey;
+  display: inline;
+}
+
+#event-type option {
+  color: black;
+}
+
 @media only screen and (max-width: 800px) {
     .contact-content h3 {
         text-align: center;
@@ -3521,6 +3531,8 @@ footer .row {
 .footer-subscribe #mc-form label i {
     padding-right: 6px;
 }
+
+
 
 
 /* ---------------------------------------------------------------
