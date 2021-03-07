@@ -819,7 +819,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #b8b8b8;
+    background-color: black;
     border-color: #b8b8b8;
     color: #000000;
     outline: 0;
@@ -3441,7 +3441,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 9rem 0 0;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3604,6 +3604,18 @@ footer .row {
     display: none;
 }
 
+.hype-up {
+  font-weight: normal;
+  color: white;
+  background-color: grey;
+}
+.hype-up:hover {
+  color: black;
+}
+
+.hype-up a{
+  color: black;
+}
 
 /* -------------------------------------------------------------------
  * ## go to top
